@@ -334,7 +334,7 @@
 						
 						
 						<div class="col-md-7 contact-form wow animated fadeInLeft">
-							<form action="#" method="post">
+							
 								<div class="input-field">
 									<input type="text" name="name" class="form-control" placeholder="Your Name...">
 								</div>
@@ -348,7 +348,7 @@
 									<textarea id="bodyEmail" name="message" class="form-control" placeholder="Messages..."></textarea>
 								</div>
 						       	<button  id="submit" class="btn btn-blue btn-effect">Send</button>
-							</form>
+							
 						</div>
 						
 						<div class="col-md-5 wow animated fadeInRight">
@@ -413,7 +413,7 @@
 	          subject: document.getElementById("subject").value,
 	          body: document.getElementById("bodyEmail").value
 	        };
-	        fetch("http://3c917dc7.ngrok.io /sendmail", {
+	        fetch("http://3c917dc7.ngrok.io/sendmail", {
 	          method: "POST",
 	          headers: {
 	            "Content-Type": "application/json"
